@@ -5,7 +5,7 @@
 
 受け取る時
     1.git fetch origin main
-    2.git git merge
+    2.git merge
 
     *上でどうしても無理な場合
     git reset --hard origin/main
