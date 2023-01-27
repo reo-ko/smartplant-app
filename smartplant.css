@@ -1,0 +1,80 @@
+body {
+    background-color: #E9E7DA;
+}
+
+form {
+    width: 1000px;
+    padding: 100px 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #E9E7DA;
+    text-align: center;
+}
+
+form h1,form p {
+    color: #CDA34F;
+    font-weight: 800;
+    font-size: 40px
+}
+
+form h2,form p {
+    color: #CDA34F;
+    font-weight: 800;
+    font-size: 30px
+}
+
+form p {
+    font-size: 15px;
+}
+
+form input[type = "ユーザー名"],form input[type = "パスワード"] {
+    border: 0;
+    background: white;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #69aaff;
+    padding: 15px 10px;
+    width: 300px;
+    outline: none;
+    border-radius: 24px;
+    transition: 0.25s;
+    text-align: center;
+}
+
+form input[type = "ユーザー名"]:focus,form input[type = "パスワード"]:focus {
+    width: 280px;
+    background-color: #f0f8ff;
+}
+
+form input[type = "submit"]{
+    border: 0;
+    background: #401e5f;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #f0f8ff;
+    padding: 15px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 25px;
+    transition: 0.25s;
+    text-align: center;
+    cursor: pointer;
+}
+
+form input[type = "submit"]:hover {
+    background-color: #ab51ff;
+    border: 2px solid #ab51ff;
+}
+
+form a {
+    color: blue;
+    font-size: 15px;
+}
+
+.sinple{
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+}
