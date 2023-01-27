@@ -43,7 +43,7 @@ form input[type = "ユーザー名"],form input[type = "パスワード"] {
     text-align: center;
 }
 
-form input[type = "ユーザー名"]:focus,form input[type = "パスワード"]:focus {
+form input[type = "ユーザー名"]:focus,form input[type = "パスワード"]:focus,form input[type = "パスワード(確認)"]:focus {
     width: 280px;
     background-color: #f0f8ff;
 }
