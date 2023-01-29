@@ -29,7 +29,7 @@ form p {
     font-size: 15px;
 }
 
-form input[type = "ユーザー名"],form input[type = "パスワード"],form input[type = "パスワード(確認)"] {
+form input[type = "ユーザー名"],form input[type = "パスワード"],form input[type = "パスワード(確認)"],form input[type = "ユーザー名またはメールアドレス"],form input[type = "メールアドレス"] {
     border: 0;
     background: white;
     display: block;
