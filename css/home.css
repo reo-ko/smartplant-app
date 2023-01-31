@@ -13,15 +13,8 @@ body{                                   /*全体の調整*/
 
 #banner-div{                              /*左側のやつ*/
     background-color: aqua;
-<<<<<<< HEAD
     width: 10%;
     height: 100%;
-    float: left;
-}
-
-=======
-    width: 15%;
-    height: 1000px;
     float: left;
 }
 
@@ -33,10 +26,11 @@ body{                                   /*全体の調整*/
 }
 
 
->>>>>>> refs/remotes/origin/main
+
 .banner {
     list-style:none;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 
 
@@ -45,8 +39,7 @@ h1,form  {
     font-weight: 600;
     font-size: 50px;
     margin: 0;
-<<<<<<< HEAD
-=======
+
 
 }
 
@@ -54,11 +47,6 @@ form p {
     font-size: 20px;
 }
 
-form input[type = "submit"]:hover {
-    background-color: #ab51ff;
-    border: 2px solid #ab51ff;
->>>>>>> refs/remotes/origin/main
-}
 
 form a {
     color: blue;
@@ -82,22 +70,23 @@ td{
 .ooo{
     border: 0px none;
 }
-<<<<<<< HEAD
+
 .baikinman{
     text-align: center;
     color: white;
     text-decoration: none;
+    font-size: 30px;
 
 }
 .anpanmen{
     background-color: #008496;
     text-align: center;
 }
-=======
+
 td, th {
 	padding: 30px;
-	width: 300px;
-	height: 80px;
+	width: 600px;
+	height: 200px;
 }
 th {
 	background: #f0e6cc;
@@ -109,4 +98,6 @@ th {
 	background: #fefcf9;
 }
 
->>>>>>> refs/remotes/origin/main
+.moji{
+    font-size: 30px;
+}
