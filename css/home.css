@@ -9,14 +9,14 @@ body{                                   /*全体の調整*/
 
 #left-div{                              /*左側のやつ*/
     background-color: aqua;
-    width: 10%;
+    width: 15%;
     height: 1000px;
     float: left;
 }
 
 #rite-div{                              /*右側のやつ*/
     background-color: coral;
-    width: 90%;
+    width: 85%;
     height: 1000px;
     margin-left: auto;
 }
@@ -37,7 +37,7 @@ form h1,form  {
 }
 
 form p {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 form input[type = "submit"]:hover {
