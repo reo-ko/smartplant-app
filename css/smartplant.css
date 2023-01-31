@@ -72,6 +72,8 @@ form input[type = "submit"]:hover {
 form a {
     color: blue;
     font-size: 15px;
+    text-decoration: none;
+
 }
 
 .sinple{
