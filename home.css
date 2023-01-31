@@ -23,9 +23,9 @@ body{                                   /*全体の調整*/
 
 
 
-form h1,form p {
-    color: black;
-    font-weight: 800;
+form h1,form  {
+    color:black;
+    font-weight: 600;
     font-size: 50px
 }
 
@@ -39,30 +39,11 @@ form p {
     font-size: 15px;
 }
 
-form input[type = "ユーザー名"],form input[type = "パスワード"],form input[type = "パスワード(確認)"] {
-    border: 0;
-    background: white;
-    display: block;
-    margin: 20px auto;
-    border: 2px solid #69aaff;
-    padding: 15px 10px;
-    width: 300px;
-    outline: none;
-    border-radius: 24px;
-    transition: 0.25s;
-    text-align: center;
-}
-
-form input[type = "ユーザー名"]:focus,form input[type = "パスワード"]:focus,form input[type = "パスワード(確認)"]:focus {
-    width: 280px;
-    background-color: #f0f8ff;
-}
-
-form input[type = "submit"]{
+form input[id = "left-div"]{
     border: 0;
     background: #401e5f;
     display: block;
-    margin: 20px auto;
+    margin: 0px auto;
     border: 2px solid #f0f8ff;
     padding: 15px 10px;
     width: 300px;
