@@ -1,22 +1,32 @@
-body {
-    background-color: #42BA7A;
+body{                                   /*全体の調整*/
+    margin: 0px;
 }
 
-form {
-    width: 1000px;
-    padding: 100px 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: #42BA7A;
-    text-align: center;
+#header-div{                            /*上側の調整*/
+    background-color: greenyellow;
+    height: 80px;
 }
+
+#left-div{                              /*左側のやつ*/
+    background-color: aqua;
+    width: 10%;
+    height: 1000px;
+    float: left;
+}
+
+#rite-div{                              /*右側のやつ*/
+    background-color: coral;
+    width: 90%;
+    height: 1000px;
+    margin-left: auto;
+}
+
+
 
 form h1,form p {
-    color: #CDA34F;
+    color: black;
     font-weight: 800;
-    font-size: 40px
+    font-size: 50px
 }
 
 form h2,form p {
