@@ -39,22 +39,6 @@ form p {
     font-size: 15px;
 }
 
-form input[id = "left-div"]{
-    border: 0;
-    background: #401e5f;
-    display: block;
-    margin: 0px auto;
-    border: 2px solid #f0f8ff;
-    padding: 15px 10px;
-    width: 300px;
-    outline: none;
-    color: white;
-    border-radius: 25px;
-    transition: 0.25s;
-    text-align: center;
-    cursor: pointer;
-}
-
 form input[type = "submit"]:hover {
     background-color: #ab51ff;
     border: 2px solid #ab51ff;
