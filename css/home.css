@@ -59,7 +59,7 @@ table , td, th {
 }
 td, th {
 	padding: 30px;
-	width: 300px;ß
+	width: 300px;
 	height: 80px;
 }
 th {
@@ -71,3 +71,4 @@ th {
 .odd {
 	background: #fefcf9;
 }
+
