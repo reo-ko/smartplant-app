@@ -1,9 +1,5 @@
-html{
-    height: 100%;
-}
 body{                                   /*全体の調整*/
     margin: 0;
-    height: 100%;
 }
 
 #header-div{                            /*上側の調整*/
@@ -11,15 +7,8 @@ body{                                   /*全体の調整*/
     height: 80px;
 }
 
-#banner-div{                              /*左側のやつ*/
+#left-div{                              /*左側のやつ*/
     background-color: aqua;
-<<<<<<< HEAD
-    width: 10%;
-    height: 100%;
-    float: left;
-}
-
-=======
     width: 15%;
     height: 1000px;
     float: left;
@@ -33,31 +22,27 @@ body{                                   /*全体の調整*/
 }
 
 
->>>>>>> refs/remotes/origin/main
 .banner {
+    font-size:  30px;
     list-style:none;
-    margin-bottom: 20px;
 }
 
 
-h1,form  {
+form h1,form  {
     color:black;
     font-weight: 600;
     font-size: 50px;
     margin: 0;
-<<<<<<< HEAD
-=======
 
 }
 
 form p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 form input[type = "submit"]:hover {
     background-color: #ab51ff;
     border: 2px solid #ab51ff;
->>>>>>> refs/remotes/origin/main
 }
 
 form a {
@@ -66,34 +51,12 @@ form a {
     text-decoration: none;
 }
 
-table{
-    border: 1px solid #595959;
-    border-collapse: collapse;
-    text-align: center;
-    padding: 3px;
-}
-td{
-    border: 1px solid #595959;
-    border-collapse: collapse;
-    padding: 3px;
-}
 
-
-.ooo{
-    border: 0px none;
+table , td, th {
+    margin: 0 auto;
+	border: 1px solid #595959;
+	border-collapse: collapse;
 }
-<<<<<<< HEAD
-.baikinman{
-    text-align: center;
-    color: white;
-    text-decoration: none;
-
-}
-.anpanmen{
-    background-color: #008496;
-    text-align: center;
-}
-=======
 td, th {
 	padding: 30px;
 	width: 300px;
@@ -108,5 +71,3 @@ th {
 .odd {
 	background: #fefcf9;
 }
-
->>>>>>> refs/remotes/origin/main
