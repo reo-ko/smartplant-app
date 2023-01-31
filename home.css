@@ -1,0 +1,83 @@
+body{                                   /*全体の調整*/
+    margin: 0;
+}
+
+#header-div{                            /*上側の調整*/
+    background-color: greenyellow;
+    height: 80px;
+}
+
+#left-div{                              /*左側のやつ*/
+    background-color: aqua;
+    width: 10%;
+    height: 1000px;
+    float: left;
+}
+
+#rite-div{                              /*右側のやつ*/
+    background-color: coral;
+    width: 90%;
+    height: 1000px;
+    margin-left: auto;
+}
+
+
+.sinple{
+    color: rgb(116, 116, 116);
+    font-size: 12px;
+}
+
+.banner {
+    font-size:  30px;
+    list-style:none;
+}
+
+
+form h1,form  {
+    color:black;
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+
+}
+
+form h2,form p {
+    color: #CDA34F;
+    font-weight: 800;
+    font-size: 30px
+}
+
+form p {
+    font-size: 15px;
+}
+
+form input[type = "submit"]:hover {
+    background-color: #ab51ff;
+    border: 2px solid #ab51ff;
+}
+
+form a {
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
