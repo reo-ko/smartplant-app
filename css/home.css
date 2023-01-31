@@ -22,11 +22,6 @@ body{                                   /*全体の調整*/
 }
 
 
-.sinple{
-    color: rgb(116, 116, 116);
-    font-size: 12px;
-}
-
 .banner {
     font-size:  30px;
     list-style:none;
@@ -39,12 +34,6 @@ form h1,form  {
     font-size: 50px;
     margin: 0;
 
-}
-
-form h2,form p {
-    color: #CDA34F;
-    font-weight: 800;
-    font-size: 30px
 }
 
 form p {
@@ -69,8 +58,8 @@ table , td, th {
 	border-collapse: collapse;
 }
 td, th {
-	padding: 3px;
-	width: 300px;
+	padding: 30px;
+	width: 300px;ß
 	height: 80px;
 }
 th {
