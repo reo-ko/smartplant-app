@@ -18,13 +18,6 @@ body{                                   /*全体の調整*/
     float: left;
 }
 
-#rite-div{                              /*右側のやつ*/
-    background-color: coral;
-    width: 85%;
-    height: 1000px;
-    margin-left: auto;
-}
-
 
 
 .banner {
@@ -39,8 +32,6 @@ h1,form  {
     font-weight: 600;
     font-size: 50px;
     margin: 0;
-
-
 }
 
 form p {

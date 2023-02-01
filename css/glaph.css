@@ -1,0 +1,39 @@
+html{
+  height: 100%;
+}
+
+body{                                   /*全体の調整*/
+  margin: 0;
+  height: 100%;
+}
+
+
+h1,form  {
+  color:black;
+  font-weight: 600;
+  font-size: 50px;
+  margin: 0;
+}
+#header-div{                            /*上側の調整*/
+  background-color: greenyellow;
+  height: 80px;
+}
+.banner {
+  list-style:none;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+#banner-div{                              /*左側のやつ*/
+  background-color: aqua;
+  width: 10%;
+  height: 100%;
+  float: left;
+}
+
+
+.graph{
+  width: 800px;
+  margin-left: 300px;
+  height: 200px;
+}
