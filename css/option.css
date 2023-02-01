@@ -57,17 +57,4 @@ table , td, th {
 	border: 1px solid #595959;
 	border-collapse: collapse;
 }
-td, th {
-	padding: 30px;
-	width: 300px;
-	height: 80px;
-}
-th {
-	background: #f0e6cc;
-}
-.even {
-	background: #fbf8f0;
-}
-.odd {
-	background: #fefcf9;
-}
+
